@@ -1,0 +1,94 @@
+
+/* en general modifica el cuerpo de la pagina web y agrega color de fondo gris*/
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(76, 76, 80);
+}
+/* modifica color y lo ajusta de posicion en la pagina web*/
+.p1{
+    color: silver;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/* agrega atributos al footer como color,borde y posicionamiento*/
+#footer1{
+    padding-left: 45%;
+    background-color: rgb(172, 170, 170);
+    color: rgb(131, 27, 27);
+    border: 1px solid;
+}
+/* modifica el logo del encabezado de pagina con un borde, posicionamiento y tamaño*/
+.logo{
+    padding-top: 3%;
+    width: 150px;
+    border-radius: 100px;
+}
+/* modifica el logo del pie de pagina con un borde y tamaño*/
+.logo1{
+    width: 100px;
+    border-radius: 100px;
+}
+/* modifica la tabla asignadole una posicion dentro de la pagina web*/
+#tabla{
+padding-left: 35%;
+padding-top: 3%;
+}
+/* agrega color, borde y centra el texto de la tabla*/
+table,th,td{
+    color: silver;
+    border: 2px solid;
+    text-align: center;
+}
+/* agrega color y centra el texto de todo los titulos h1*/
+h1{
+    color: silver;
+    text-align: center;
+    
+}
+/* justifica el texto, cambia la fuete de las letras a calibri y les asigna un tamaño de 15px a todo los parrafos*/
+p{
+    text-align: justify;
+    font-family: Calibri;
+    font-size: 15px;
+}
+/*Agrega color de fondo gris a la barra de navegacion, un borde y posicionamiento*/
+#nav{
+    background-color: rgb(172, 170, 170);
+    border: 3px solid;
+    padding-left: 3%;
+}
+/* Agrega posicionamiento , cambia la fuente y tamaño y el color al menu de navegacion*/
+.menu{
+    padding-left: 65%;
+    font: 25px calibri;
+    color: black;
+}
+/*Agrega posicionamiento, alinea el texto al centro y cambia tamaño en el div de contacto*/
+.contacto{
+   padding-left: 35%;
+   text-align: center;
+   width: 400px;
+}
+/*Cambia el tamaño de toda las imagenes que se encuentran en proyectos*/
+.img1{
+    width: 65%;
+}
+/*Posiciona el contenedor y le da un color a los parrafos que se encuentrn dentro del contenedor*/
+#img{
+    color: silver;
+    padding-left: 25%;
+}
+/*Agrega borde y posicionamiento al formulario*/
+form{
+    border: 1px solid;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+}
+/*Modifica el cuadro de textarea e impide que puedan modificar el tamaño*/
+textarea{
+    resize: none;
+}
